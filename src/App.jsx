@@ -1,12 +1,19 @@
 
+import { Outlet } from 'react-router-dom'
 import './App.css'
+import Navbar from './Components/Navbar'
+import Footer from './Components/Footer'
 
 function App() {
 
   return (
     <>
+      <Navbar></Navbar>
+      <div className=' w-[95%] mx-auto'>
 
-      <h1>Vite + React</h1>
+        <Outlet></Outlet>
+        <Footer></Footer>
+      </div>
 
     </>
   )
