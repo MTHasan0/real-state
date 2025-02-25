@@ -19,7 +19,11 @@ const Home = () => {
                     <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
                     {/* Content */}
-                    <div className="relative z-10 text-center text-white px-4">
+                    <motion.div
+                        initial={{ opacity: 0, y: 50 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.5 }}
+                        className="relative z-10 text-center text-white px-4">
                         <h1 className="text-5xl md:text-6xl font-bold mb-4 animate-fade-in">
                             Find Your Dream Home
                         </h1>
@@ -31,7 +35,7 @@ const Home = () => {
                         >
                             Browse Properties
                         </button>
-                    </div>
+                    </motion.div>
                 </div>
                 {/* <div
                     className="hero min-h-screen  "
@@ -57,6 +61,82 @@ const Home = () => {
                     </div>
                 </div> */}
             </div>
+            <div className=' border border-slate-400 w-1/5 mt-8 mb-8 mx-auto'></div>
+            <motion.div
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+                className="carousel carousel-vertical h-96 xl:h-[550px] md:h-[480px] w-full mx-auto ">
+                {/* <!-- Slide 1 --> */}
+                <div className="carousel-item shadow-xl relative w-[75%] border mx-auto">
+                    <img className="w-fit transform transition-transform duration-300 group-hover:scale-110" src="https://i.postimg.cc/vBmkZLK2/temp-Image-Bb-VZ0-S.avif" />
+                    <div className="absolute top-1/2 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
+                        <h3 className="text-xl font-bold">Luxury Villa in Beverly Hills</h3>
+                        <p className="text-sm">5 Bedrooms | 6 Bathrooms | 7,500 sq.ft.</p>
+                        <button className="mt-2 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Schedule a Tour</button>
+                    </div>
+                </div>
+
+                {/* <!-- Slide 2 --> */}
+                <div className="carousel-item shadow-xl relative w-[75%] border mx-auto">
+                    <img className="w-fit" src="https://i.postimg.cc/HLdFfC9g/temp-Image-Lq-Z2-PU.avif" />
+                    <div className="absolute top-1/2 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
+                        <h3 className="text-xl font-bold">Modern Apartment in Downtown</h3>
+                        <p className="text-sm">2 Bedrooms | 2 Bathrooms | 1,200 sq.ft.</p>
+                        <button className="mt-2 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">View Details</button>
+                    </div>
+                </div>
+
+                {/* <!-- Slide 3 --> */}
+                <div className="carousel-item shadow-xl relative w-[75%] border mx-auto">
+                    <img className="w-fit" src="https://i.postimg.cc/YSRT7ydm/temp-Imageo-X7-ZU4.avif" />
+                    <div className="absolute top-1/2 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
+                        <h3 className="text-xl font-bold">Cozy Family Home in Suburbia</h3>
+                        <p className="text-sm">4 Bedrooms | 3 Bathrooms | 2,800 sq.ft.</p>
+                        <button className="mt-2 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Contact Agent</button>
+                    </div>
+                </div>
+
+                {/* <!-- Slide 4 --> */}
+                <div className="carousel-item shadow-xl relative w-[75%] border mx-auto">
+                    <img className="w-fit" src="https://i.postimg.cc/gJB5XLFz/temp-Imageui0-Ag-P.avif" />
+                    <div className="absolute top-1/2 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
+                        <h3 className="text-xl font-bold">Beachfront Property in Malibu</h3>
+                        <p className="text-sm">3 Bedrooms | 3 Bathrooms | 2,500 sq.ft.</p>
+                        <button className="mt-2 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Request More Info</button>
+                    </div>
+                </div>
+
+                {/* <!-- Slide 5 --> */}
+                <div className="carousel-item shadow-xl relative w-[75%] border mx-auto">
+                    <img className="w-fit" src="https://i.postimg.cc/c1v1DQJc/temp-Imagezf-Fle4.avif" />
+                    <div className="absolute top-1/2 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
+                        <h3 className="text-xl font-bold">Rustic Cabin in the Mountains</h3>
+                        <p className="text-sm">2 Bedrooms | 1 Bathroom | 1,000 sq.ft.</p>
+                        <button className="mt-2 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Book a Viewing</button>
+                    </div>
+                </div>
+
+                {/* <!-- Slide 6 --> */}
+                <div className="carousel-item shadow-xl relative w-[75%] border mx-auto">
+                    <img className="w-fit" src="https://i.postimg.cc/vBmkZLK2/temp-Image-Bb-VZ0-S.avif" />
+                    <div className="absolute top-1/2 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
+                        <h3 className="text-xl font-bold">Luxury Villa in Beverly Hills</h3>
+                        <p className="text-sm">5 Bedrooms | 6 Bathrooms | 7,500 sq.ft.</p>
+                        <button className="mt-2 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Schedule a Tour</button>
+                    </div>
+                </div>
+
+                {/* <!-- Slide 7 --> */}
+                <div className="carousel-item shadow-xl relative w-[75%] border mx-auto">
+                    <img className="w-fit" src="https://i.postimg.cc/HLdFfC9g/temp-Image-Lq-Z2-PU.avif" />
+                    <div className="absolute top-1/2 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
+                        <h3 className="text-xl font-bold">Modern Apartment in Downtown</h3>
+                        <p className="text-sm">2 Bedrooms | 2 Bathrooms | 1,200 sq.ft.</p>
+                        <button className="mt-2 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">View Details</button>
+                    </div>
+                </div>
+            </motion.div>
 
 
 

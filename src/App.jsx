@@ -12,8 +12,9 @@ function App() {
       <div className=' w-[95%] mx-auto'>
 
         <Outlet></Outlet>
-        <Footer></Footer>
+
       </div>
+      <Footer></Footer>
 
     </>
   )
