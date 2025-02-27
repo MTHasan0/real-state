@@ -63,25 +63,25 @@ const Navbar = () => {
                     <div className="hidden md:flex md:items-center md:space-x-4">
                         <a
                             href="/"
-                            className="text-black  px-3 py-2 rounded-md text-sm font-medium transition duration-300 hover:bg-gradient-to-br from-purple-200 to-blue-400"
+                            className="text-black  px-3 py-2  text-sm font-medium transition duration-300 hover:bg-gradient-to-br from-purple-200 to-blue-400"
                         >
                             Home
                         </a>
                         <a
                             href="/about"
-                            className="text-black  px-3 py-2 rounded-md text-sm font-medium transition duration-300 hover:bg-gradient-to-br from-purple-200 to-blue-400"
+                            className="text-black  px-3 py-2  text-sm font-medium transition duration-300 hover:bg-gradient-to-br from-purple-200 to-blue-400"
                         >
                             About
                         </a>
                         <a
                             href="/services"
-                            className="text-black  px-3 py-2 rounded-md text-sm font-medium transition duration-300 hover:bg-gradient-to-br from-purple-200 to-blue-400"
+                            className="text-black  px-3 py-2  text-sm font-medium transition duration-300 hover:bg-gradient-to-br from-purple-200 to-blue-400"
                         >
                             Services
                         </a>
                         <a
                             href="/contact"
-                            className="text-black  px-3 py-2 rounded-md text-sm font-medium transition duration-300 hover:bg-gradient-to-br from-purple-200 to-blue-400"
+                            className="text-black  px-3 py-2  text-sm font-medium transition duration-300 hover:bg-gradient-to-br from-purple-200 to-blue-400"
                         >
                             Contact
                         </a>
@@ -95,25 +95,25 @@ const Navbar = () => {
                     <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                         <a
                             href="/"
-                            className="text-black block px-3 py-2 rounded-md text-base font-medium hover:bg-gradient-to-br from-purple-200 to-blue-400"
+                            className="text-black block px-3 py-2  text-base font-medium hover:bg-gradient-to-br from-purple-200 to-blue-400"
                         >
                             Home
                         </a>
                         <a
                             href="/about"
-                            className="text-black block px-3 py-2 rounded-md text-base font-medium hover:bg-gradient-to-br from-purple-200 to-blue-400"
+                            className="text-black block px-3 py-2  text-base font-medium hover:bg-gradient-to-br from-purple-200 to-blue-400"
                         >
                             About
                         </a>
                         <a
                             href="/services"
-                            className="text-black block px-3 py-2 rounded-md text-base font-medium hover:bg-gradient-to-br from-purple-200 to-blue-400"
+                            className="text-black block px-3 py-2  text-base font-medium hover:bg-gradient-to-br from-purple-200 to-blue-400"
                         >
                             Services
                         </a>
                         <a
                             href="/contact"
-                            className="text-black block px-3 py-2 rounded-md text-base font-medium  hover:bg-gradient-to-br from-purple-200 to-blue-400"
+                            className="text-black block px-3 py-2  text-base font-medium  hover:bg-gradient-to-br from-purple-200 to-blue-400"
                         >
                             Contact
                         </a>

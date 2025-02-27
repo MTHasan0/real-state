@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "Luxury Villa in Beverly Hills",
+        "location": "1234 Sunset Blvd, Beverly Hills, CA 90210",
+        "price": "$2,500,000",
+        "description": "This stunning luxury villa is located in the heart of Beverly Hills. It features 5 spacious bedrooms, 6 modern bathrooms, and a total living area of 7,500 sq.ft. The property includes a state-of-the-art kitchen, a private swimming pool, and a beautifully landscaped garden.",
+        "images": [
+            "https://i.postimg.cc/vBmkZLK2/temp-Image-Bb-VZ0-S.avif",
+            "https://i.postimg.cc/HLdFfC9g/temp-Image-Lq-Z2-PU.avif",
+            "https://i.postimg.cc/YSRT7ydm/temp-Imageo-X7-ZU4.avif"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Modern Apartment in Downtown",
+        "location": "5678 Main St, Los Angeles, CA 90015",
+        "price": "$1,200,000",
+        "description": "This modern apartment is located in the bustling downtown area. It features 2 bedrooms, 2 bathrooms, and a total living area of 1,200 sq.ft. The apartment includes a sleek kitchen, floor-to-ceiling windows, and access to a rooftop pool.",
+        "images": [
+            "https://i.postimg.cc/HLdFfC9g/temp-Image-Lq-Z2-PU.avif",
+            "https://i.postimg.cc/vBmkZLK2/temp-Image-Bb-VZ0-S.avif",
+            "https://i.postimg.cc/gJB5XLFz/temp-Imageui0-Ag-P.avif"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Cozy Family Home in Suburbia",
+        "location": "9101 Oak St, Pasadena, CA 91101",
+        "price": "$950,000",
+        "description": "This cozy family home is located in a quiet suburban neighborhood. It features 4 bedrooms, 3 bathrooms, and a total living area of 2,800 sq.ft. The home includes a spacious backyard, a modern kitchen, and a fireplace in the living room.",
+        "images": [
+            "https://i.postimg.cc/YSRT7ydm/temp-Imageo-X7-ZU4.avif",
+            "https://i.postimg.cc/c1v1DQJc/temp-Imagezf-Fle4.avif",
+            "https://i.postimg.cc/vBmkZLK2/temp-Image-Bb-VZ0-S.avif"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Beachfront Property in Malibu",
+        "location": "2345 Ocean Dr, Malibu, CA 90265",
+        "price": "$3,500,000",
+        "description": "This beachfront property offers breathtaking views of the Pacific Ocean. It features 3 bedrooms, 3 bathrooms, and a total living area of 2,500 sq.ft. The property includes a private beach access, a modern kitchen, and a spacious deck.",
+        "images": [
+            "https://i.postimg.cc/gJB5XLFz/temp-Imageui0-Ag-P.avif",
+            "https://i.postimg.cc/YSRT7ydm/temp-Imageo-X7-ZU4.avif",
+            "https://i.postimg.cc/HLdFfC9g/temp-Image-Lq-Z2-PU.avif"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Rustic Cabin in the Mountains",
+        "location": "6789 Pine St, Big Bear, CA 92315",
+        "price": "$750,000",
+        "description": "This rustic cabin is nestled in the mountains, offering a peaceful retreat. It features 2 bedrooms, 1 bathroom, and a total living area of 1,000 sq.ft. The cabin includes a wood-burning fireplace, a cozy living room, and a large porch with mountain views.",
+        "images": [
+            "https://i.postimg.cc/c1v1DQJc/temp-Imagezf-Fle4.avif",
+            "https://i.postimg.cc/vBmkZLK2/temp-Image-Bb-VZ0-S.avif",
+            "https://i.postimg.cc/YSRT7ydm/temp-Imageo-X7-ZU4.avif"
+        ]
+    }
+]

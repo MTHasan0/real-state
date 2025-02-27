@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
-      <div className=' w-[95%] mx-auto'>
+      <div className='  mx-auto'>
 
         <Outlet></Outlet>
 
