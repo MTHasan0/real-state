@@ -1,0 +1,106 @@
+{
+    "hero": {
+        "backgroundImage": "https://i.postimg.cc/htFJbzRJ/image.png",
+        "title": "Hello there",
+        "description": "Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.",
+        "buttonText": "Get Started"
+    },
+    "carousel": [
+        {
+            "id": 1,
+            "image": "https://i.postimg.cc/vBmkZLK2/temp-Image-Bb-VZ0-S.avif",
+            "title": "Luxury Villa in Beverly Hills",
+            "description": "5 Bedrooms | 6 Bathrooms | 7,500 sq.ft.",
+            "buttonText": "View Details"
+        },
+        {
+            "id": 2,
+            "image": "https://i.postimg.cc/HLdFfC9g/temp-Image-Lq-Z2-PU.avif",
+            "title": "Modern Apartment in Downtown",
+            "description": "2 Bedrooms | 2 Bathrooms | 1,200 sq.ft.",
+            "buttonText": "View Details"
+        },
+        {
+            "id": 3,
+            "image": "https://i.postimg.cc/YSRT7ydm/temp-Imageo-X7-ZU4.avif",
+            "title": "Cozy Family Home in Suburbia",
+            "description": "4 Bedrooms | 3 Bathrooms | 2,800 sq.ft.",
+            "buttonText": "View Details"
+        },
+        {
+            "id": 4,
+            "image": "https://i.postimg.cc/gJB5XLFz/temp-Imageui0-Ag-P.avif",
+            "title": "Beachfront Property in Malibu",
+            "description": "3 Bedrooms | 3 Bathrooms | 2,500 sq.ft.",
+            "buttonText": "View Details"
+        },
+        {
+            "id": 5,
+            "image": "https://i.postimg.cc/c1v1DQJc/temp-Imagezf-Fle4.avif",
+            "title": "Rustic Cabin in the Mountains",
+            "description": "2 Bedrooms | 1 Bathroom | 1,000 sq.ft.",
+            "buttonText": "View Details"
+        }
+    ],
+    "featuredProperties": [
+        {
+            "id": 1,
+            "image": "https://i.postimg.cc/HLdFfC9g/temp-Image-Lq-Z2-PU.avif",
+            "title": "Modern Apartment in Downtown",
+            "description": "2 Bedrooms | 2 Bathrooms | 1,200 sq.ft.",
+            "price": "$1,200,000",
+            "oldPrice": "$1,500,000",
+            "buttonText": "View Details"
+        },
+        {
+            "id": 2,
+            "image": "https://i.postimg.cc/YSRT7ydm/temp-Imageo-X7-ZU4.avif",
+            "title": "Cozy Family Home in Suburbia",
+            "description": "4 Bedrooms | 3 Bathrooms | 2,800 sq.ft.",
+            "price": "$1,500,000",
+            "oldPrice": "$1,900,000",
+            "buttonText": "View Details"
+        },
+        {
+            "id": 3,
+            "image": "https://i.postimg.cc/gJB5XLFz/temp-Imageui0-Ag-P.avif",
+            "title": "Beachfront Property in Malibu",
+            "description": "3 Bedrooms | 3 Bathrooms | 2,500 sq.ft.",
+            "price": "$2,500,000",
+            "oldPrice": "$2,800,000",
+            "buttonText": "View Details"
+        }
+    ],
+    "whyChooseUs": [
+        {
+            "icon": "🏡",
+            "title": "Wide Range of Properties",
+            "description": "From luxury villas to cozy apartments, we have something for everyone."
+        },
+        {
+            "icon": "💼",
+            "title": "Expert Agents",
+            "description": "Our experienced agents are here to guide you every step of the way."
+        },
+        {
+            "icon": "🔑",
+            "title": "Easy Process",
+            "description": "We make buying, selling, and renting properties simple and stress-free."
+        }
+    ],
+    "testimonials": [
+        {
+            "text": "The team helped me find the perfect home for my family. Highly recommended!",
+            "author": "John Doe"
+        },
+        {
+            "text": "Professional and reliable service. They made the entire process so easy!",
+            "author": "Jane Smith"
+        }
+    ],
+    "cta": {
+        "title": "Ready to Find Your Dream Home?",
+        "description": "Contact us today to get started on your real estate journey.",
+        "buttonText": "Contact an Agent"
+    }
+}
