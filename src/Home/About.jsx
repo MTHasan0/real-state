@@ -3,36 +3,44 @@ import { motion } from 'motion/react';
 
 const About = () => {
     return (
-        <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-        >
+        <div>
             <section className="overflow-hidden pb-12 lg:pb-[90px] bg-white dark:bg-dark">
                 <div className="container mx-auto">
                     <div className="flex flex-wrap items-center justify-between -mx-4">
                         <div className="w-full px-4 lg:w-6/12">
                             <div className="flex items-center -mx-3 sm:-mx-4">
                                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
-                                    <div className="py-3 sm:py-4">
+                                    <motion.div
+                                        initial={{ opacity: 0, y: -100 }}
+                                        whileInView={{ opacity: 1, y: 0 }}
+                                        transition={{ duration: 0.5, delay: 0.2 }}
+                                        className="py-3 sm:py-4">
                                         <img
-                                            src="https://i.postimg.cc/Nfy8FHt3/temp-Image6-XYPi-R.avif"
+                                            src="https://i.postimg.cc/63DdsDg8/temp-Imaged2-FS86.avif"
                                             alt=""
                                             className="w-full rounded-2xl"
                                         />
-                                    </div>
-                                    <div className="py-3 sm:py-4">
+                                    </motion.div>
+                                    <motion.div
+                                        initial={{ opacity: 0, y: 100 }}
+                                        whileInView={{ opacity: 1, y: 0 }}
+                                        transition={{ duration: 0.5, delay: 0.2 }}
+                                        className="py-3 sm:py-4">
                                         <img
-                                            src="https://i.postimg.cc/wMMXhtms/temp-Image-DEm-Sf-Y.avif"
+                                            src="https://i.postimg.cc/mkC7TmW8/temp-Imagefo-FICB.avif"
                                             alt=""
                                             className="w-full rounded-2xl"
                                         />
-                                    </div>
+                                    </motion.div>
                                 </div>
                                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
-                                    <div className="relative z-10 my-4">
+                                    <motion.div
+                                        initial={{ opacity: 0, x: 100 }}
+                                        whileInView={{ opacity: 1, x: 0 }}
+                                        transition={{ duration: 0.5, delay: 0.2 }}
+                                        className="relative z-10 my-4">
                                         <img
-                                            src="https://i.postimg.cc/fL2XTwrW/temp-Image-Xt1oy-U.avif"
+                                            src="https://i.postimg.cc/76CgWxsv/temp-Image-Qxe-R8q.avif"
                                             alt=""
                                             className="w-full rounded-2xl"
                                         />
@@ -606,18 +614,22 @@ const About = () => {
                                                 />
                                             </svg>
                                         </span>
-                                    </div>
+                                    </motion.div>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
+                        <motion.div
+                            initial={{ opacity: 0, x: 100 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            transition={{ duration: 0.5, delay: 0.2 }}
+                            className="w-full px-4 lg:w-1/2 xl:w-5/12">
                             <div className="mt-10 lg:mt-0">
                                 <span className="block mb-4 text-lg font-semibold text-primary">
-                                    Why Choose Us
+                                    About us
                                 </span>
                                 <h2 className="mb-5 text-3xl font-bold text-dark  sm:text-[40px]/[48px]">
-                                    Make your customers happy by giving services.
+                                    We're here to make your dreams true.
                                 </h2>
                                 <p className="mb-5 text-base text-body-color dark:text-dark-6">
                                     It is a long established fact that a reader will be distracted
@@ -636,11 +648,11 @@ const About = () => {
                                     Get Started
                                 </a>
                             </div>
-                        </div>
+                        </motion.div>
                     </div>
                 </div>
             </section>
-        </motion.div>
+        </div>
     );
 };
 
